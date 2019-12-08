@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+<!-- title block -->
+{% block head_title %} idris Homepage {% endblock %}
+
+<!-- content block -->
+{%block content%}
+
+<div class="jumbotron">
+  <div class="shadow p-3 mb-5 bg-white rounded"><h1>{{greet}} Idris</h1></div>
+</div>
+
+<div class="container">
+  <div class="shadow p-3 mb-5 bg-white rounded">
+    <h3>Blog</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nostrum
+      placeat velit unde suscipit quis? Praesentium soluta aliquid blanditiis
+      inventore quisquam veniam placeat consectetur? Provident assumenda autem
+      dicta doloremque deserunt.
+    </p>
+  </div>
+</div>
+{% endblock %}
